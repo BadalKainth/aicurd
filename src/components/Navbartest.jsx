@@ -62,12 +62,12 @@ const Navbartest = () => {
                     >
                       {link.name}
                     </ScrollLink>
-                    <ul className="absolute top-full left-0 mt-3 bg-white border shadow-xl rounded-xl grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 p-2 z-50 w-[500px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-300">
+                    <ul className="absolute top-full left-0 mt-1 bg-white border shadow-xl rounded-xl grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 p-2 z-50 w-[500px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-300">
                       {link.dropdown.map((item, idx) => (
                         <li key={idx}>
                           <RouterLink
                             to={item.to}
-                            className="block w-full px-1 py-1 text-sm text-gray-700 hover:bg-orange-500 hover:text-white rounded-md"
+                            className="block w-full px-1 py-1 text-sm text-black hover:bg-orange-500 hover:text-white rounded-md"
                           >
                             {item.name}
                           </RouterLink>
@@ -88,7 +88,7 @@ const Navbartest = () => {
                         <li key={idx}>
                           <RouterLink
                             to={item.to}
-                            className="block w-full px-3 py-2 text-sm text-gray-700 hover:bg-orange-500 hover:text-white rounded-md"
+                            className="block w-full px-3 py-2 text-sm text- hover:bg-orange-500 hover:text-white rounded-md"
                           >
                             {item.name}
                           </RouterLink>
@@ -125,7 +125,7 @@ const Navbartest = () => {
           </ul>
 
           {/* ✅ Social Icons on large screen */}
-          <div className="ml-6 flex gap-4 text-xl text-gray-700">
+          <div className="ml-6 flex gap-4 text-xl text-">
             <a
               href="https://twitter.com/"
               target="_blank"
@@ -171,7 +171,7 @@ const Navbartest = () => {
                           <RouterLink
                             to={item.to}
                             onClick={() => setMobileOpen(false)}
-                            className="text-sm text-gray-700 hover:text-orange-500"
+                            className="text-sm text- hover:text-orange-500"
                           >
                             {item.name}
                           </RouterLink>
@@ -210,7 +210,7 @@ const Navbartest = () => {
           </ul>
 
           {/* ✅ Social Icons in Mobile Menu Bottom */}
-          <div className="pt-6 border-t mt-4 flex justify-center gap-6 text-xl text-gray-700">
+          <div className="pt-6 border-t mt-4 flex justify-center gap-6 text-xl text-">
             <a
               href="https://twitter.com/"
               target="_blank"

@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[auto,1fr,1fr] lg:justify-center lg:items-center lg:items-center lg:text-center gap-10">
         {/* Nav Links */}
         <div className="flex flex-col gap-4 lg:px-10 sm:flex text-sm font-medium w-60">
-          <div className="flex lg:ml-32 lg:text-start gap-2">
+          <div className="flex flex-col lg:ml-32 lg:text-start gap-2">
             {links.map((link, index) => (
               <ScrollLink
                 key={index}
@@ -90,9 +90,9 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center poppins-regular text-sm text-gray-100 mt-10 border-t pt-4 border-gray-700">
+      <div className="text-center poppins-regular text-sm text-gray-100 mt-10 border-t pt-4 border-gray-200">
         © {new Date().getFullYear()} AICURD Foundation. All rights reserved to
-        SSBPO.
+        <span className="font-bold tracking-wide text-gray-50"> SSBPO.</span>
       </div>
     </footer>
   );
