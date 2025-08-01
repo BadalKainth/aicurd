@@ -16,8 +16,8 @@ const Footer = () => {
     <footer className="poppins-regular lg:grid-cols-[auto,1fr,1fr] lg:justify-center lg:items-center lg:items-center bg-orange-500 text-white py-5 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[auto,1fr,1fr] lg:justify-center lg:items-center lg:items-center lg:text-center gap-10">
         {/* Nav Links */}
-        <div className="flex flex-col gap-4 lg:px-10 sm:flex text-sm font-medium w-60">
-          <div className="flex flex-col lg:ml-32 lg:text-start gap-2">
+        <div class="flex flex-row max-w-7xl lg:flex lg:flex-col justify-center lg:pl-7 font-semibold lg:text-start gap-2">
+          <div className="flex flex-row  lg:flex lg:flex-col  lg:ml-32 lg:text-start gap-2">
             {links.map((link, index) => (
               <ScrollLink
                 key={index}
@@ -34,9 +34,9 @@ const Footer = () => {
         </div>
 
         {/* Info Section */}
-        <div className="flex flex-col items-center  space-y-6 text-center lg:text-left">
-          <div className="flex flex-col items-center  space-y-6 text-center lg:text-left">
-            <h2 className="text-3xl font-bold uppercase tracking-wide text-white border-b pt-4 border-gray-100">
+        <div className="flex flex-col items-center space-y-6 text-center lg:text-left">
+          <div className="flex flex-col items-center space-y-6 text-center lg:text-left">
+            <h2 className="text-3xl font-bold uppercase tracking-wide text-white border-b border-gray-100">
               AICURD Foundation
             </h2>
             <p className="mt-2 poppins-regular text-md text-gray-100">
