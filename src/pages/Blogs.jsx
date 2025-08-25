@@ -40,10 +40,7 @@ const Blogs = () => {
         Our Blogs
       </h1>
       <p className="text-center poppins-regular-italic text-sm sm:text-base tracking-wide mb-6 w-full max-w-3xl">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem deleniti,
-        quis soluta repudiandae facere minima assumenda. Ducimus ad quo iure
-        voluptate omnis. Unde itaque optio quaerat deserunt, aliquid illum
-        atque.
+        Explore insights, updates, and stories through our latest blogs.
       </p>
 
       <div className="w-full max-w-7xl">

@@ -7,6 +7,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const links = [
   { name: "Home", scrollTo: "home" },
+  { name: "Profile", to: "/profile" },
   { name: "About", scrollTo: "about" },
   {
     name: "Projects",
@@ -17,7 +18,6 @@ const links = [
   },
   { name: "President", scrollTo: "president" },
   { name: "Blogs", scrollTo: "blogs" },
-  { name: "Donate", scrollTo: "donate" },
   { name: "Contact", scrollTo: "contact" },
 ];
 
@@ -50,18 +50,13 @@ const Navbartest = () => {
         <div className="hidden lg:flex items-center space-x-6 font-medium">
           <ul className="flex space-x-6">
             {links.map((link, index) => {
+              // Dropdown Case
               if (link.dropdown) {
-                return isHomePage ? (
+                return (
                   <li key={index} className="relative group">
-                    <ScrollLink
-                      to="projects"
-                      smooth={true}
-                      duration={500}
-                      offset={-70}
-                      className="cursor-pointer hover:text-orange-500"
-                    >
+                    <span className="cursor-pointer hover:text-orange-500">
                       {link.name}
-                    </ScrollLink>
+                    </span>
                     <ul className="absolute top-full left-0 mt-1 bg-white border shadow-xl rounded-xl grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 p-2 z-50 w-[500px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-300">
                       {link.dropdown.map((item, idx) => (
                         <li key={idx}>
@@ -75,30 +70,21 @@ const Navbartest = () => {
                       ))}
                     </ul>
                   </li>
-                ) : (
-                  <li key={index} className="relative group">
-                    <RouterLink
-                      to="/#projects"
-                      className="cursor-pointer hover:text-orange-500"
-                    >
+                );
+              }
+
+              // ✅ Redirect if link has `to`
+              if (link.to) {
+                return (
+                  <li key={index}>
+                    <RouterLink to={link.to} className="hover:text-orange-500">
                       {link.name}
                     </RouterLink>
-                    <ul className="absolute top-full left-0 mt-3 bg-white border shadow-xl rounded-xl grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 p-3 z-50 w-[500px] opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-300">
-                      {link.dropdown.map((item, idx) => (
-                        <li key={idx}>
-                          <RouterLink
-                            to={item.to}
-                            className="block w-full px-3 py-2 text-sm text- hover:bg-orange-500 hover:text-white rounded-md"
-                          >
-                            {item.name}
-                          </RouterLink>
-                        </li>
-                      ))}
-                    </ul>
                   </li>
                 );
               }
 
+              // Scroll otherwise
               return (
                 <li key={index}>
                   {isHomePage ? (
@@ -124,8 +110,8 @@ const Navbartest = () => {
             })}
           </ul>
 
-          {/* ✅ Social Icons on large screen */}
-          <div className="ml-6 flex gap-4 text-xl text-">
+          {/* ✅ Social Icons */}
+          <div className="ml-6 flex gap-4 text-xl">
             <a
               href="https://twitter.com/"
               target="_blank"
@@ -171,7 +157,7 @@ const Navbartest = () => {
                           <RouterLink
                             to={item.to}
                             onClick={() => setMobileOpen(false)}
-                            className="text-sm text- hover:text-orange-500"
+                            className="text-sm hover:text-orange-500"
                           >
                             {item.name}
                           </RouterLink>
@@ -182,6 +168,22 @@ const Navbartest = () => {
                 );
               }
 
+              // ✅ Redirect if link has `to`
+              if (link.to) {
+                return (
+                  <li key={index}>
+                    <RouterLink
+                      to={link.to}
+                      onClick={() => setMobileOpen(false)}
+                      className="hover:text-orange-500"
+                    >
+                      {link.name}
+                    </RouterLink>
+                  </li>
+                );
+              }
+
+              // Scroll otherwise
               return (
                 <li key={index}>
                   {isHomePage ? (
@@ -209,8 +211,8 @@ const Navbartest = () => {
             })}
           </ul>
 
-          {/* ✅ Social Icons in Mobile Menu Bottom */}
-          <div className="pt-6 border-t mt-4 flex justify-center gap-6 text-xl text-">
+          {/* ✅ Social Icons in Mobile */}
+          <div className="pt-6 border-t mt-4 flex justify-center gap-6 text-xl">
             <a
               href="https://twitter.com/"
               target="_blank"

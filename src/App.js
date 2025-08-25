@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Navbartest from "./components/Navbartest";
 import ProjectById from "./pages/ProjectById";
 import BlogById from "./pages/BlogById";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/projects/:id" element={<ProjectById />} />
         <Route path="/blog/:id" element={<BlogById />} />
       </Routes>

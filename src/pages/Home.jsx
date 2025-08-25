@@ -25,8 +25,8 @@ const Home = () => {
 
         {/* Centered Title */}
         <div className="relative z-10 flex justify-center items-center h-[50vh] md:h-[100vh]">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl anton-regular font-bold tracking-widest lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
-            AICURD FOUNDATION
+          <h1 className="text-3xl sm:text-4xl md:text-5xl poppins-medium-italic font-bold tracking-widest lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
+            AICURD
           </h1>
         </div>
       </section>

@@ -13,19 +13,22 @@ const About = () => {
         />
 
         {/* Text Section */}
-        <div className="w-full md:w-1/2 flex flex-col justify-start items-center md:items-start p-4 sm:p-6 md:p-10">
+        <div className="w-full md:w-1/2 flex flex-col justify-start items-center text-center md:items-start p-4 sm:p-6 md:p-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold anton-regular text-orange-500 tracking-wider uppercase text-center md:text-left">
-            Our Mission
+            Our Vision
           </h1>
 
           <p className="py-10 text-base sm:text-lg md:text-xl font-base poppins-regular text-center md:text-left">
-            Accusantium dignissimos voluptas rem consequatur blanditiis error
-            ratione illo sit quasi ut, praesentium magnam, pariatur quae,
-            necessitatibus.
+            To undertake innovative and experimental welfare projects in urban
+            and rural areas with the focus on upliftment of disadvantaged
+            sections such as Scheduled Castes, Scheduled Tribes, Other Backward
+            Classes, women and children, aged, handicapped, infirm, and mentally
+            retarded.
             <br />
             <br />
-            Dolor, eligendi voluptate ducimus itaque esse autem perspiciatis
-            sint! Recusandae dolor aliquid inventore sit,
+            To review the functioning of delivery system for development and to
+            suggest ways and means of making these more effective so as to reach
+            the poor urban and rural dwellers.
           </p>
         </div>
       </div>
