@@ -56,7 +56,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61579795409472"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-neutral-700 transition"
@@ -64,7 +64,7 @@ const Footer = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/aicurdngo/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-neutral-700 transition"
