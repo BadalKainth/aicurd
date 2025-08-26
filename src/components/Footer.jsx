@@ -78,7 +78,7 @@ const Footer = () => {
         <div className="w-full h-30 lg:w-2/3 lg:h-40  rounded overflow-hidden shadow-lg">
           <iframe
             title="address"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9700176735428!2d77.2023660749567!3d28.630660684166596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd500690e88d%3A0x2d8093efcf43c80c!2s16%2C%20Bhai%20Veer%20Singh%20Marg%2C%20Sector%204%2C%20Gole%20Market%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1753876556499!5m2!1sen!2sin"
+            src="https://maps.app.goo.gl/rqsM9rySZ8Hxgbty6?pb=28.63085,77.20493"
             width="100%"
             height="auto"
             loading="lazy"
