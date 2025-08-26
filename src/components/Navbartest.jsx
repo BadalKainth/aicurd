@@ -222,7 +222,7 @@ const Navbartest = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61579795409472"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-500 transition"
@@ -230,7 +230,7 @@ const Navbartest = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/aicurdngo/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-500 transition"
