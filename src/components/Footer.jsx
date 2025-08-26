@@ -77,14 +77,13 @@ const Footer = () => {
         {/* Map */}
         <div className="w-full h-30 lg:w-2/3 lg:h-40  rounded overflow-hidden shadow-lg">
           <iframe
-            title="address"
-            src="https://maps.app.goo.gl/rqsM9rySZ8Hxgbty6?pb=28.63085,77.20493"
-            width="100%"
-            height="auto"
+            title="AICURD Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9701739684465!2d77.20494099999999!3d28.630656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x831f89b0d939c61f%3A0xbf5baa3264801f73!2sAICURD%20NGO%20ALL%20INDIA%20CENTRE%20FOR%20URBAN%20AND%20RURAL%20DEVELOPMENT!5e0!3m2!1sen!2sin!4v1756189037827!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
             loading="lazy"
-            className="border-0 w-full h-full"
-            allowFullScreen=""
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

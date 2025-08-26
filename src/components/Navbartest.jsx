@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import ProjectsData from "../pages/ProjectData";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import Logo from "../img/logo.jpg";
 
 const links = [
   { name: "Home", scrollTo: "home" },
@@ -31,7 +32,8 @@ const Navbartest = () => {
   return (
     <nav className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
-        <h1 className="text-5xl anton-regular font-bold tracking-wider text-orange-500">
+        <h1 className="text-5xl anton-regular flex flex-row font-bold justify-center items-center gap-5 tracking-wider text-orange-500">
+          <img src={Logo} alt="" className="w-14 h-14" />
           AICURD
         </h1>
 
@@ -121,7 +123,7 @@ const Navbartest = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61579795409472"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-500 transition"
@@ -129,7 +131,7 @@ const Navbartest = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/aicurdngo/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-500 transition"
