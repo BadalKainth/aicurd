@@ -43,7 +43,7 @@ const Blogs = () => {
         Explore insights, updates, and stories through our latest blogs.
       </p>
 
-      <div className="w-full max-w-7xl">
+      <div className="w-full md:w-11/12">
         <Slider {...settings}>
           {BlogsData.map((blog, idx) => (
             <div

@@ -46,7 +46,7 @@ const Projects = () => {
         promote inclusive growth.
       </p>
 
-      <div className="w-full max-w-7xl">
+      <div className="w-full md:w-11/12">
         <Slider {...settings}>
           {ProjectsData.map((project, idx) => (
             <div

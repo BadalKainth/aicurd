@@ -3,8 +3,8 @@ import img2 from "../img/about.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-between items-center w-full h-full bg-neutral-100 py-20 px-4 sm:px-6 md:px-10 gap-10">
-      <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-4/5 gap-10">
+    <div className="flex flex-col justify-between items-center w-full h-full bg-neutral-100 py-5  px-4 sm:px-3 md:py-10 md:px-5 gap-10">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-11/12 gap-10">
         {/* Image Section */}
         <img
           className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-lg"
@@ -18,7 +18,7 @@ const About = () => {
             Our Vision
           </h1>
 
-          <p className="py-10 text-base sm:text-lg md:text-xl font-base poppins-regular text-center md:text-left">
+          <p className="py-10 text-base sm:text-lg md:text-xl font-base poppins-regular text-justify ">
             To undertake innovative and experimental welfare projects in urban
             and rural areas with the focus on upliftment of disadvantaged
             sections such as Scheduled Castes, Scheduled Tribes, Other Backward

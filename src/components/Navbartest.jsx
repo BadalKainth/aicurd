@@ -9,6 +9,7 @@ import Logo from "../img/logo.jpg";
 const links = [
   { name: "Home", scrollTo: "home" },
   { name: "Profile", to: "/profile" },
+  { name: "Gallery", to: "/gallery" },
   { name: "About", scrollTo: "about" },
   {
     name: "Projects",
@@ -30,8 +31,8 @@ const Navbartest = () => {
   const toggleMobile = () => setMobileOpen(!mobileOpen);
 
   return (
-    <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
+    <nav className="bg-white shadow sticky top-0 z-50 w-full">
+      <div className=" w-11/12 mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
         <h1 className="text-5xl anton-regular flex flex-row font-bold justify-center items-center gap-5 tracking-wider text-orange-500">
           <img src={Logo} alt="" className="w-14 h-14" />
           AICURD
@@ -114,14 +115,14 @@ const Navbartest = () => {
 
           {/* ✅ Social Icons */}
           <div className="ml-6 flex gap-4 text-xl">
-            <a
+            {/* <a
               href="https://twitter.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-500 transition"
             >
               <FaTwitter />
-            </a>
+            </a> */}
             <a
               href="https://www.facebook.com/profile.php?id=61579795409472"
               target="_blank"

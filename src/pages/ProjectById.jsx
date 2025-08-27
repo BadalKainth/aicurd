@@ -25,7 +25,7 @@ const ProjectById = () => {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div className="md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-10 poppins-regular">
       <article className="bg-white shadow-md rounded-lg overflow-hidden">
         <img
           src={project.img}
@@ -39,7 +39,7 @@ const ProjectById = () => {
           <p className="text-sm text-gray-500 mb-6">
             By <strong>{project.author}</strong>
           </p>
-          <div className="text-gray-700 text-base md:text-lg leading-relaxed">
+          <div className="text-gray-700 text-base md:text-lg text-justify leading-relaxed">
             {project.description}
           </div>
         </div>
