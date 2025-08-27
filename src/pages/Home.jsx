@@ -40,13 +40,13 @@ const Home = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl poppins-medium-italic font-bold tracking-widest lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
             AICURD
           </h1>
-          <p className="text-lg text-white text-center tracking-wider">
+          {/* <p className="text-lg text-white text-center tracking-wider">
             <strong>AICURD </strong> undertakes holistic development projects
             across urban and rural India, focusing on education, health, women
             empowerment, and community upliftment. Through grassroots engagement
             and government-supported initiatives, it aims to improve quality of
             life and promote inclusive growth.
-          </p>
+          </p> */}
         </div>
       </section>
 
