@@ -5,9 +5,9 @@ const Profile = () => {
   return (
     <>
       <SEO
-        title="AICURD – Profile of MR PRINCE GUPTA"
-        description="Profile of MR PRINCE GUPTA – Founder and guiding force behind AICURD, leading initiatives in rural development, health, education, and women empowerment since 1985."
-        keywords="MR PRINCE GUPTA, AICURD, All India Centre for Urban and Rural Development, NGO Leadership, Rural Development Leader, Social Services, Community Development, NGO Profile, Women Empowerment, Health Awareness, Poverty Alleviation, Social Entrepreneur, SC ST Welfare, Tribal Welfare, Social Services NGO"
+        title="AICURD – Profile of AICURD"
+        description="Profile of AICURD, leading initiatives in rural development, health, education, and women empowerment since 1985."
+        keywords="AICURD, All India Centre for Urban and Rural Development, NGO Leadership, Rural Development Leader, Social Services, Community Development, NGO Profile, Women Empowerment, Health Awareness, Poverty Alleviation, Social Entrepreneur, SC ST Welfare, Tribal Welfare, Social Services NGO"
         author="MR PRINCE GUPTA"
         url="https://aicurd.org/profile"
         image="https://aicurd.org/images/profile-cover.jpg"

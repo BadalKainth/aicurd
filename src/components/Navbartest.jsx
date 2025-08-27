@@ -32,7 +32,7 @@ const Navbartest = () => {
 
   return (
     <nav className="bg-white shadow sticky top-0 z-50 w-full">
-      <div className=" w-11/12 mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
+      <div className=" w-10/12 mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
         <h1 className="text-5xl anton-regular flex flex-row font-bold justify-center items-center gap-5 tracking-wider text-orange-500">
           <img src={Logo} alt="" className="w-14 h-14" />
           AICURD
