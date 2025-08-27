@@ -21,7 +21,10 @@ const Home = () => {
         image="https://aicurd.org/images/home-cover.jpg"
       />
 
-      <section id="home" className="w-full relative">
+      <section
+        id="home"
+        className="w-full relative flex justify-center items-center poppins-regular"
+      >
         {/* Background Image with brightness */}
         <div
           className="absolute inset-0 bg-cover bg-center brightness-50 z-0"
@@ -33,10 +36,17 @@ const Home = () => {
         ></div>
 
         {/* Centered Title */}
-        <div className="relative z-10 flex justify-center items-center h-[50vh] md:h-[100vh]">
+        <div className="relative z-10 flex flex-col justify-center items-center w-10/12 h-[50vh] md:h-[100vh] gap-5">
           <h1 className="text-3xl sm:text-4xl md:text-5xl poppins-medium-italic font-bold tracking-widest lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
             AICURD
           </h1>
+          <p className="text-lg text-white text-center tracking-wider">
+            <strong>AICURD </strong> undertakes holistic development projects
+            across urban and rural India, focusing on education, health, women
+            empowerment, and community upliftment. Through grassroots engagement
+            and government-supported initiatives, it aims to improve quality of
+            life and promote inclusive growth.
+          </p>
         </div>
       </section>
 
