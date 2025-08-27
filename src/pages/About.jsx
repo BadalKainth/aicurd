@@ -1,9 +1,12 @@
 import React from "react";
 import img2 from "../img/about.jpg";
+import SEO from "../components/Seo";
 
 const About = () => {
+
   return (
     <div className="flex flex-col justify-between items-center w-full h-full bg-neutral-100 py-5  px-4 sm:px-3 md:py-10 md:px-5 gap-10">
+      <SEO  />
       <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-11/12 gap-10">
         {/* Image Section */}
         <img

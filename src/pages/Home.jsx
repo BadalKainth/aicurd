@@ -8,10 +8,20 @@ import Contact from "./Contact";
 import Blogs from "./Blogs";
 import Projects from "./Projects";
 import Footer from "../components/Footer";
+import SEO from "../components/Seo";
 
 const Home = () => {
   return (
     <div className="relative">
+      <SEO
+        title="AICURD – Vision, Mission, and Key Development Initiatives (1985–Present)"
+        description="AICURD, since 1985, empowers disadvantaged communities through health, education, women empowerment, socio-economic surveys & rural development."
+        keywords="AICURD, All India Centre for Urban and Rural Development, NGO India, Rural Development, Urban Development, Socio-Economic Survey, SC ST Welfare, Scheduled Castes development, Scheduled Tribes development, Backward Classes upliftment, Women Empowerment, Child Welfare, Health Awareness Camps, HIV AIDS Prevention, TB Control, RNTCP DOT Centre, Reproductive Child Health, Migrant Workers Welfare, Yamuna Action Plan, Participatory Waste Management, Poverty Alleviation, Skill Development, Capacity Building, Low Cost Housing, Cooperative Societies, Community Participation, National Integration, Environmental Awareness, Tribal Welfare, Community Development Projects, Rural Employment, Social Services NGO, Empowering Marginalized Communities."
+        author="MR PRINCE GUPTA"
+        url="https://aicurd.org/"
+        image="https://aicurd.org/images/home-cover.jpg"
+      />
+
       <section id="home" className="w-full relative">
         {/* Background Image with brightness */}
         <div

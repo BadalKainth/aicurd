@@ -134,6 +134,109 @@ And miles to go before I sleep”
 
 Our Journey continues ……`,
   },
+  {
+    id: 3,
+    img: img,
+    title:
+      "AICURD’s Grassroots Development Initiatives in Jalpaiguri, West Bengal",
+    author: "Admin",
+    description: `AICURD has been quite instrumental towards empowerment of marginalized people aiming at their sustainable livelihood. Accordingly AICURD has formed almost 520 SHGs in different blocks of Jalpaiguri district, Wet Bengal. by this time 325 SHGs have been graded and credit linked. 
+For promotion of handicrafts in Jalpaiguri district by making arrangements of supply of raw materials, technological inputs, training to artisans, marketing support etc. AICURD was allowed a project under Baba Sahib Ambedkar Aastha Shilpa Vikas Yojana (AHVY) in Nov. 2001 from Development Commissioner (H), Ministry of Textiles, GOI. Accordingly 16 SHGs consisting of 240 artisans availed training etc. 
+for Jute, Cane, Bamboo & weaving activities. In the year 2007-08 similar assistance was granted to AICURD under AHVY. Skill development workshop for 6 months covering 20 artisans, design development workshop for 15 days covering 30 artisans and integrated design & technical development project for 6 months covering 75 nos. of artisans were successfully organized. AICURD has set up a Craft Development Centre (CDC) on diversified jute products at Jalpaiguri with financial assistance from Development Commissioner (H), Ministry of Textiles, GOI. Non availability of credit in time is a major problem of the SHGs for their involvement in income generating activities. With a view to obviate this bottle neck AICURD provided credit support to SHGs. 
+Most of group members are engaged in agriculture, small business, animal husbandry, cottage industry etc. 
+Their repayment is almost 90%. Credit decision is taken by group members in their meeting. AICURD has organized a child labor school at Jalpaiguri aided by NCLP (Labor Dept. Govt. of West Bengal). Children of age group 9 to 14 years engaged in hazardous activities were admitted. We are providing formal education and vocational training to the children. There is arrangement of full meal at noon. 
+We have organized ten crèche centers for the children of working mothers in Saddar block of Jalpaiguri district, W.B. It is funded by Central Social Welfare Board/ West Bengal Social Welfare Board. Children of age group 0 to 6 years are admitted. There are 2 creche workers in each center. We offer pre-primary education, health support and nutrition to the children. Most of the mothers of children belong to BPL category, they have formed a few SHGs. Ministry of Food Processing Industries, GOI has sanctioned a project of FPTC in the financial year 2008-09. Members of SHGs are beneficiaries. 
+Grounding of the project is mostly completed. Nehru Yuva Kendra sponsored skill development training programmer for women members of SHG on â€˜Cutting & Tailoring€™ of 25 members in each batch. We covered 2 batches with a duration of 6 months. We have conducted Entrepreneurship Development Programmer covering 25 PMRY beneficiaries for 15 days which was sponsored by DIC, Jalpaiguri, WB. NABARD Regional Office, Kolkata sponsored a few programmers on which were conducted by AICURD.
+
+
+AICURD AHVY - Ambedkar Hastshilp Vikas Yojana
+1.The Ambedkar Hastshilp Vikas Yojana (AHVY), through active guidance of the All India Centre for Urban and Rural Development (AICURD), is infusing a new life into India's handicraft industry.) and AABY (Aam Aadmi Bima Yojana).
+Identity Provision: Issuing Artisans' Identity Cards (AIC) to all eligible cluster artisans.
+Formalization of Groups: Supporting the registration and formation of Producer Companies, Federations, or Institutions, with a mandate for at least 50% of cluster artisans to be members or shareholders, fostering collective ownership and professional management. Assistance of up to  for up to 3 years is provided for this.
+Cluster Manager Appointment: Selecting qualified and experienced cluster managers to oversee and guide the cluster's development.
+Artisans' Credit Card (ACC): Facilitating flexible and cost-effective access to credit (for both investment and working capital) through Scheduled Banks in rural and urban areas, helping artisans meet their financial needs.
+2. Technological Interventions: Modernizing Craftsmanship
+Tool Kit Assistance: Providing financial aid of approximately per tool kit to equip artisans with modern and improved tools.
+Prototype Development & Skill Upgradation: Granting up to per workshop to support the development of new prototypes and the adoption of advanced techniques and technologies.
+Research & Development: Offering up to for cluster and market studies, development of new tools, processes, and techniques, including test marketing and documentation.
+Training Support: Providing financial assistance for specialized training (e.g., up to for general crafts and up to for carpet training, with a share for the implementing agency).
+Seminars & Symposiums: Funding up to for organizing events focused on policy issues and challenges within the handicraft sector.
+Need-Based Studies: Allocating for studies on need-based technology, process, and infrastructure.
+3. Marketing Interventions: Expanding Market Reach-AICURD
+Marketing Events: Support for participation in marketing events, including:
+For organizations from states other than J&K and North East: 75% assistance, up to for artisans for demonstration purposes.
+For NER and J&K organizations (holding events outside their regions): Full transportation costs up to per artisan for sales and demonstrations.
+For NER and J&K organizations (holding events within their regions): 75% assistance, up to for artisans for demonstration purposes.
+Publicity Materials: Providing 75% financial assistance (100% for printing brochures, folders/maps, catalogs) for promotional activities.
+Marketing Infrastructure:
+New Emporia: Up to 50% of project cost, capped at for own buildings, for rented, or for renovation/expansion.
+Cluster Visits: 100% government assistance up to cluster visit for market linkage initiatives.
+Exposure Visits: 100% assistance for exposure visits to best practices in India and abroad, based on merit.
+Workshed Support: Up to workshed for artisan groups, covering storage for finished goods, raw materials, and working space.
+Entrepreneurship Training: Financial aid of INR 2 lakhs per training batch for entrepreneurship development programs.
+4. Financial Interventions: Strengthening Economic Base
+Common Corpus Fund: 100% assistance of artisan for creating a common corpus, enhancing credit facilities, and facilitating access to loans from banks and financial institutions.
+Cluster Manager Support: Monthly assistance of for 60 months to support the cluster manager.
+Project Implementing Agency (PIA) Support: 5% of the total released amount for PIAs.
+5. Cluster-Specific Infrastructure Interventions
+Raw Material Bank: Up to INR 2 crores for establishing raw material banks to ensure consistent supply.
+Common Facility Centre (CFC): Up to per CFC for shared facilities for production, design, and other needs.
+Resource Centre & E-Kiosks: Support for setting up information resource centers and e-kiosks to enhance connectivity and access to information.
+Eligibility Criteria for Implementing Agencies
+A wide range of organizations can apply for AHVY projects to support artisan clusters:
+
+Handicraft Artists' Trusts(AICURD)
+Central and State Handlooms and Handicrafts AICURD Development Corporations
+Other government companies or agencies promoted by state governments or financial institutions.
+Women Empowerment & Skill Development – AICURD: Supporting women, youth & artisans with training, SHGs & livelihood programs for sustainable growth.
+AICURD – Registered NGO in New Delhi: Nationwide NGO advancing education, women empowerment, sanitation & community development projects since inception.
+Transforming Lives with AICURD NGO: Promoting SHGs, vocational training, child welfare & livelihood opportunities for rural & urban communities in India.
+Leading NGO for Social Development – AICURD: Legal aid, skill building, vocational training & welfare initiatives improving lives across rural & urban India.
+✅AICURD – All India Centre for Urban and Rural Development | Official NGO Website
+Supporting rural & urban growth through empowerment, skill training, SHGs, legal aid & community projects across India.
+✅Transforming Lives – AICURD NGO for Education, SHGs & Skill Development
+AICURD fosters SHGs, education & skills programs, helping rural & urban communities achieve sustainable growth.
+✅AICURD | Leading NGO for Urban & Rural Growth, Vocational Training & Legal Aid
+AICURD leads initiatives in urban/rural growth, legal aid, vocational training & social development across India.
+✅NGO in India – AICURD for Women Empowerment, Child Welfare & Sanitation
+AICURD supports women empowerment, child welfare, sanitation & rehabilitation programs for inclusive development.
+✅All India Centre for Urban & Rural Development – Registered NGO in Delhi
+Registered NGO in Delhi, AICURD drives social change through women empowerment, skill building & community projects.
+✅AICURD NGO | Supporting Self-Help Groups, Handicrafts & Community Projects
+Building SHGs, promoting handicrafts & rural skills, AICURD strengthens communities through sustainable projects.
+✅Building Stronger Communities – AICURD NGO (Headquarters New Delhi)
+From Delhi HQ, AICURD empowers communities with SHGs, training, education, sanitation & social development work.
+
+
+Handicrafts Export Promotion Council (AICURD)
+
+Federations of NGOs/SHGs Consortiums, etc., registered under relevant laws.
+The National Center for Product Development and Design (AICURD)
+Metal Crafts Service Center (AICURD)
+Organizations registered with state or central government under appropriate law for the long-term growth of craft clusters.
+Required Documents for Project Registration
+Applicants must submit the following documents with their Project Registration Application:
+Resolution for Aid: Copy of a resolution from the Office of the Development Commissioner (Handicrafts) seeking financial assistance under the scheme.
+Utilization Certificates: Details of funds utilized from DC (Handicrafts) and other central/state government departments/agencies over the last three years.
+Project Leadership: Name and personal information of the project head, nodal officer, and authorized contact official.
+
+Affidavits:AICURD
+Declaration that the majority of governing body members are not from the same family.
+Information about individuals holding membership in any other society registered in India.
+Affidavit confirming the organization is not involved in illegal activities and has not been blacklisted by any central or state agencies.
+Financial assistance under AHVY is generally disbursed in two installments:
+First Installment: 50% of the approved amount is released as an advance.
+Second and Final Installment: The remaining amount is paid upon receipt of the required audited expenditure report, Utilization Certificate (UC) in format, the cumulative end performance report, and any other necessary documents.
+For departmental activities, full payment may be released as an advance.
+AICURD has organized and assisted over 500 SHGs in Jalpaiguri district in West Bengal, connecting many with income generation and credit opportunities. The NGO has been able to successfully execute handicrafts development programs under AHVY, set up a Craft Development Centre (CDC) for jute and bamboo crafts, and conducted skill development, design training, and entrepreneurship courses for artisans, youth, and women.
+
+AICURD also operates child labour schools, creche centers for working mothers' children, mid-day meal schemes, and pre-primary support in education with the aid of Government of India and West Bengal Social Welfare Board. With the support of Ministry of Textiles, NABARD, Nehru Yuva Kendra, Central Social Welfare Board, and Ministry of Food Processing Industries, AICURD connects rural artisans and SHGs with sustainable livelihood.
+
+With a repayment level of nearly 90% in SHG credit programmes, AICURD has become a trusted partner for community development, women's entrepreneurship, poverty alleviation, sanitation awareness, HIV/AIDS education, capacity building in Panchayati Raj, and youth skill development.
+From New Delhi metropolitan agglomerations to rural West Bengal villages, AICURD continues committed to inclusive growth, sustainable development, and empowerment of the underprivileged.
+AICURD is dedicated to inclusive growth, sustainable development, and empowerment of the poor everywhere, whether in the urban agglomerates of New Delhi or West Bengal villages.
+`,
+  },
 ];
 
 export default BlogsData;
