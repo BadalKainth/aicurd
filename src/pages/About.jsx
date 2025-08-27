@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="flex flex-col justify-between items-center w-full h-full bg-neutral-100 py-5  px-4 sm:px-3 md:py-10 md:px-5 gap-10">
       <SEO
-        title="All India Centre for Urban & Rural Development – Grassroots NGO, India."
+        title="AICURD – About AICURD"
         description="AICURD Foundation, founded in 1985, empowers rural & urban India through education, health, women empowerment, and community development projects."
         keywords="AICURD, AICURD Foundation, All India Centre for Urban and Rural Development, NGO India, Rural Development, Urban Development, Women Empowerment, Education NGO, Health NGO, Community Development, SHG Formation, Skill Training, Inclusive Growth, Social Welfare Projects, Tribal Development, SC ST OBC Welfare, Child Development NGO, Holistic Development India"
         author="AICURD Foundation"
