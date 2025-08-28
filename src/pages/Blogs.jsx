@@ -59,7 +59,8 @@ const Blogs = () => {
                 <div className="p-3 sm:p-4 flex flex-col justify-between h-[230px]">
                   <div>
                     <h2 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2">
-                      {blog.title}
+                      {blog.title.slice(0, 31)}
+                      <span>...</span>
                     </h2>
                     <p className="text-sm sm:text-base text-gray-600">
                       {blog.description.slice(0, 180)}...
