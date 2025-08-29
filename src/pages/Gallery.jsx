@@ -47,7 +47,7 @@ import g45 from "../img/g45.png";
 import g46 from "../img/g46.png";
 import g47 from "../img/g47.png";
 import g48 from "../img/g48.png";
-import g49 from "../img/g49.png";
+// import g49 from "../img/g49.png";
 import g50 from "../img/g50.png";
 import g51 from "../img/g51.png";
 
@@ -100,7 +100,7 @@ const images = [
   g46,
   g47,
   g48,
-  g49,
+  // g49,
   g50,
   g51,
 ];

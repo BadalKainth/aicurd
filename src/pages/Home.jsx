@@ -1,5 +1,6 @@
 import React from "react";
-import img2 from "../img/about.jpg";
+// import img2 from "../img/about.jpg";
+import img2 from "../img/HeroNGO.jpg";
 import RecCard from "../components/RecCard";
 import PresidentsDiary from "./PresidentsDiary";
 import About from "./About";

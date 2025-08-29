@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../img/about.jpg";
+import img2 from "../img/g12.png";
 import SEO from "../components/Seo";
 
 const About = () => {

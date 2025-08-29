@@ -62,9 +62,12 @@ const Blogs = () => {
                       {blog.title.slice(0, 31)}
                       <span>...</span>
                     </h2>
-                    <p className="text-sm sm:text-base text-gray-600">
-                      {blog.description.slice(0, 180)}...
+                    <p className="text-sm sm:text-base whitespace-pre-line text-justify text-gray-600">
+                      {blog.metadescription.slice(0, 200)}...
                     </p>
+                    {/* <p className="text-sm sm:text-base whitespace-pre-line  text-justify text-gray-600">
+                      {blog.description.slice(0, 180)}...
+                    </p> */}
                   </div>
                   <Link
                     to={`/blog/${blog.id}`}

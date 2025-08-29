@@ -1,10 +1,19 @@
 // src/data/projectsData.js
-import img from "../img/about.jpg";
+import water from "../img/water.jpg";
+import handicapped from "../img/handicapped.jpg";
+import youth from "../img/g5.png";
+import seminar from "../img/g26.png";
+import handicraft from "../img/handicraft.png";
+import SHG from "../img/SHG.png";
+import post from "../img/g2.png";
+import yamuna from "../img/yamuna.jpg";
+import jute from "../img/g44.png";
+import basti from "../img/basti.png";
 
 const ProjectsData = [
   {
     id: 1,
-    img: img,
+    img: water,
     title: "Potable Drinking Water",
     author: "Admin",
     description:
@@ -12,7 +21,7 @@ const ProjectsData = [
   },
   {
     id: 2,
-    img: img,
+    img: handicapped,
     title: "Welfare of Handicapped",
     author: "Admin",
     description:
@@ -20,7 +29,7 @@ const ProjectsData = [
   },
   {
     id: 3,
-    img: img,
+    img: youth,
     title: "Youth Welfare",
     author: "Admin",
     description:
@@ -28,7 +37,7 @@ const ProjectsData = [
   },
   {
     id: 4,
-    img: img,
+    img: seminar,
     title: "Conference / Seminars and Workshops",
     author: "Admin",
     description:
@@ -36,7 +45,7 @@ const ProjectsData = [
   },
   {
     id: 5,
-    img: img,
+    img: handicraft,
     title: "Baba Saheb Ambedkar Hast Shilp Vikash Yojana",
     author: "Admin",
     description:
@@ -44,7 +53,7 @@ const ProjectsData = [
   },
   {
     id: 6,
-    img: img,
+    img: jute,
     title: "Development of Jute Aprons for Tea Gardens in Jalpaiguri District",
     author: "Admin",
     description:
@@ -52,7 +61,7 @@ const ProjectsData = [
   },
   {
     id: 7,
-    img: img,
+    img: SHG,
     title: "Role of AICURD in Formation of S.H.Gs",
     author: "Admin",
     description:
@@ -60,7 +69,7 @@ const ProjectsData = [
   },
   {
     id: 8,
-    img: img,
+    img: handicraft,
     title: "Craft Development Centre on Diversified Jute Products",
     author: "Admin",
     description: `AICURD has set up a Craft Development Centre on Diversified Jute Products at Jalpaiguri with financial assistance provided by Office of the Development Commissioner (Handicraft), Government of India in the year 1998-99
@@ -74,7 +83,7 @@ const ProjectsData = [
   },
   {
     id: 9,
-    img: img,
+    img: post,
     title: "Post Literacy Programme",
     author: "Admin",
     description:
@@ -82,7 +91,7 @@ const ProjectsData = [
   },
   {
     id: 10,
-    img: img,
+    img: yamuna,
     title: "Yamuna Action Plan",
     author: "Admin",
     description:
@@ -90,7 +99,7 @@ const ProjectsData = [
   },
   {
     id: 11,
-    img: img,
+    img: basti,
     title: "Basti Vikash Kendra",
     author: "Admin",
     description:
@@ -98,7 +107,7 @@ const ProjectsData = [
   },
   {
     id: 12,
-    img: img,
+    img: basti,
     title: "Basti Vikash Kendras, Sultanpuri",
     author: "Admin",
     description:

@@ -25,7 +25,7 @@ const ProjectById = () => {
   }
 
   return (
-    <div className="md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-10 poppins-regular">
+    <div className="md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-5 poppins-regular">
       <article className="bg-white shadow-md rounded-lg overflow-hidden">
         <img
           src={project.img}

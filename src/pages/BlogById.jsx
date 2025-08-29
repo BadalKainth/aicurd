@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import BlogsData from "./BlogData";
+import ReactMarkdown from "react-markdown";
 
 const BlogById = () => {
   const { id } = useParams();
@@ -25,7 +26,7 @@ const BlogById = () => {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div className="md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-5">
       <article className="bg-white shadow-md rounded-lg overflow-hidden">
         <img
           src={blog.img}
@@ -39,8 +40,8 @@ const BlogById = () => {
           <p className="text-sm text-gray-500 mb-6">
             By <strong>{blog.author}</strong>
           </p>
-          <div className="text-gray-700 text-base md:text-lg leading-relaxed">
-            {blog.description}
+          <div className="prose prose-blue leading-relaxed text-gray-700 text-base md:text-lg text-justify ">
+            <ReactMarkdown>{blog.description}</ReactMarkdown>
           </div>
         </div>
       </article>

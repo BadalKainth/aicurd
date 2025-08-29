@@ -1,28 +1,40 @@
 // src/data/projectsData.js
-import img from "../img/about.jpg";
+// import img from "../img/about.jpg";
+import hero from "../img/Hero.jpeg";
+import aim from "../img/g26.png";
+import journey from "../img/g12.png";
+import grassroot from "../img/grassroot.jpg";
 
 const BlogsData = [
   {
     id: 1,
-    img: img,
-    title: "The Genesis",
+    img: hero,
+    title:
+      "The Genesis of AICURD | National Level NGO for Rural & Urban Development in India",
     author: "Admin",
-    description: `The All India Centre for Urban and Rural Development (AICURD), registered under the Societies Registration Act of 1860 was established in 1984 as a National Level Voluntary Organisation for promoting improved quality of human life, human settlements and physical and social environments in India.
+    metadescription:
+      "Discover the genesis of AICURD, a national-level NGO established in 1984 under the Societies Registration Act. Committed to rural and urban development, AICURD promotes community participation, grassroots initiatives, national integration, and holistic programs for improving quality of life across India.",
+
+    description: `The All India Centre for Urban and Rural Development (AICURD), registered under the Societies Registration Act of 1860, was established in 1984 as a National Level Voluntary Organisation for promoting improved quality of human life, human settlements, and physical and social environments in India.
 
 To transform the same vision into reality, the AICURD with determination and dedication undertook to:
 
-Establish Constituent Units in almost all the Districts of the country.
-Encourage voluntary efforts among the people to participate in nation building programmes
-Take up comprehensive developmental programmes encompassing economic, social and ideological aspects of human life.
-Ensure involvement of grassroot level workers in planning, formulation and implementation of programmes.
-Organizes need-based programmes on the suggestions of the concerned Unit’s management.
-Propagate and espouse the cause of national integration and communal harmony to strengthen national unity.`,
+- Establish Constituent Units in almost all the Districts of the country.
+- Encourage voluntary efforts among the people to participate in nation-building programmes.
+- Take up comprehensive developmental programmes encompassing economic, social, and ideological aspects of human life.
+- Ensure involvement of grassroots level workers in planning, formulation, and implementation of programmes.
+- Organize need-based programmes on the suggestions of the concerned Unit’s management.
+- Propagate and espouse the cause of national integration and communal harmony to strengthen national unity.`,
   },
   {
     id: 2,
-    img: img,
-    title: "Aims and Objects",
+    img: aim,
+    title:
+      "AICURD Aims & Objectives | NGO for Rural & Urban Development, Women Empowerment & Community Welfare",
     author: "Admin",
+    metadescription:
+      "Discover the aims and objectives of AICURD, a national-level NGO dedicated to rural and urban development, women empowerment, skill training, Khadi and Village Industries, social welfare, legal aid, and community upliftment across India.",
+
     description: `To undertake innovative and experimental welfare projects in urban and rural areas with the focus  on upliftment of disadvantage sections such as Scheduled Castes, Scheduled Tribes, Other Backward Classes, women and children, aged, handicapped, infirm, and mentally retarded.
 To undertake Khadi and Village Industries projects, establishment of emporia and Sanitary Mart, formation  of Cooperative Societies and training to its members, housing and resettlement activities for economically or otherwise  disadvantaged people in urban and rural areas by way of concept formulation, survey, planning, supervision, production of low-cost and innovate building and sanitary materials, construction, financing, management, research and development and / or training, Rashtriya Mahila Kosh programmes for male and female, information of Thrift and Credit societies etc.
 To raise funds by way of loan, grant, donations, fees etc. For any person(s) the state or central government organisations, companies, semi-government organisations, institutions or otherwise for the purpose of fulfilling the objectives of the Society and to provide funds to such beneficiaries as may be identified by the AICURD.
@@ -42,9 +54,12 @@ To develop laboratory facilities for preparation of audio-visual aids.`,
   },
   {
     id: 3,
-    img: img,
-    title: "Our Journey",
+    img: journey,
+    title: "Our Journey – AICURD | NGO for Urban & Rural Development in India",
     author: "Admin",
+    metadescription:
+      "AICURD’s journey since 1985 – empowering communities across India through education, health, women empowerment, rural development & social upliftment.",
+
     description: `All India Centre for Urban and Rural Development, a non- governmental organisation was founded by D.P. Ray, the then Member of Parliament, in 1985. After it sustained its existence for three years with non-funded projects it started receiving projects from Govt. funding agencies from 1988 to ultimately grow as a national level N.G.O. being operational in 6 states (Uttarakhand, Gujrat, Rajasthan, West Bengal, Jammu & Kashmir and Delhi). 
 
 In the year 1988-89 AICURD hosted a National Seminar on prevention of atrocities on women sponsored by the Dept of Women and Child Development, HRD Ministry. It also undertook to set up a Sewing-cum-Training Centre on its own which imparted training to poor women and girls. Even hand-driven sewing machines were donated to women in distress at village Rampura Delhi, a move widely applauded by everyone.
@@ -136,10 +151,12 @@ Our Journey continues ……`,
   },
   {
     id: 3,
-    img: img,
+    img: grassroot,
     title:
-      "AICURD’s Grassroots Development Initiatives in Jalpaiguri, West Bengal",
+      "AICURD’s Grassroots Development in Jalpaiguri, West Bengal – Empowering SHGs, Artisans & Women through AHVY, Skill Training & Livelihood Programs",
     author: "Admin",
+    metadescription:
+      "AICURD empowers rural communities in Jalpaiguri, West Bengal through SHGs, skill training, handicrafts promotion under AHVY, women empowerment, child welfare, and sustainable livelihood initiatives.",
     description: `AICURD has been quite instrumental towards empowerment of marginalized people aiming at their sustainable livelihood. Accordingly AICURD has formed almost 520 SHGs in different blocks of Jalpaiguri district, Wet Bengal. by this time 325 SHGs have been graded and credit linked. 
 For promotion of handicrafts in Jalpaiguri district by making arrangements of supply of raw materials, technological inputs, training to artisans, marketing support etc. AICURD was allowed a project under Baba Sahib Ambedkar Aastha Shilpa Vikas Yojana (AHVY) in Nov. 2001 from Development Commissioner (H), Ministry of Textiles, GOI. Accordingly 16 SHGs consisting of 240 artisans availed training etc. 
 for Jute, Cane, Bamboo & weaving activities. In the year 2007-08 similar assistance was granted to AICURD under AHVY. Skill development workshop for 6 months covering 20 artisans, design development workshop for 15 days covering 30 artisans and integrated design & technical development project for 6 months covering 75 nos. of artisans were successfully organized. AICURD has set up a Craft Development Centre (CDC) on diversified jute products at Jalpaiguri with financial assistance from Development Commissioner (H), Ministry of Textiles, GOI. Non availability of credit in time is a major problem of the SHGs for their involvement in income generating activities. With a view to obviate this bottle neck AICURD provided credit support to SHGs. 
