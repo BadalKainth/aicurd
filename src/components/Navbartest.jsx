@@ -35,7 +35,12 @@ const Navbartest = () => {
       <div className=" w-10/12 mx-auto px-4 py-3 poppins-regular flex justify-between items-center">
         <h1 className="text-5xl anton-regular flex flex-row font-bold justify-center items-center gap-5 tracking-wider text-orange-500">
           <img src={Logo} alt="" className="w-14 h-14" />
-          AICURD
+          <div className="text-5xl anton-regular flex flex-col font-bold justify-center items-center gap-1 text-orange-500">
+            AICURD
+            <span className="text-[8px] poppins-regular-italic text-center text-black">
+              All India Centre for Urban <br />& Rural Development
+            </span>
+          </div>
         </h1>
 
         {/* Mobile Icon */}

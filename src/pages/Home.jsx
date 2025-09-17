@@ -1,6 +1,6 @@
 import React from "react";
 // import img2 from "../img/about.jpg";
-import img2 from "../img/HeroNGO.jpg";
+import img2 from "../img/Hero.jpeg";
 import RecCard from "../components/RecCard";
 import PresidentsDiary from "./PresidentsDiary";
 import About from "./About";
@@ -38,9 +38,12 @@ const Home = () => {
 
         {/* Centered Title */}
         <div className="relative z-10 flex flex-col justify-center items-center w-10/12 h-[50vh] md:h-[100vh] gap-5">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl poppins-medium-italic font-bold tracking-widest lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
+          <h1 className=" poppins-medium-italic font-bold tracking-widest text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl leading-tight text-white text-center px-4">
             AICURD
           </h1>
+          <p className="text-lg text-white text-center tracking-wider ">
+            ALL INDIA CENTRE FOR URBAN AND RURAL DEVELOPMENT
+          </p>
           {/* <p className="text-lg text-white text-center tracking-wider">
             <strong>AICURD </strong> undertakes holistic development projects
             across urban and rural India, focusing on education, health, women
@@ -72,7 +75,7 @@ const Home = () => {
       <section id="contact" className="h-full ">
         <Contact />
       </section>
-      <section id="contact" className="h-full ">
+      <section id="footer" className="h-full ">
         <Footer />
       </section>
     </div>

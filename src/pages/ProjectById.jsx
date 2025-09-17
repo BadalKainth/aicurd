@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import ProjectsData from "./ProjectData";
+import ReactMarkdown from "react-markdown";
 
 const ProjectById = () => {
   const { id } = useParams();
@@ -39,8 +40,8 @@ const ProjectById = () => {
           <p className="text-sm text-gray-500 mb-6">
             By <strong>{project.author}</strong>
           </p>
-          <div className="text-gray-700 text-base md:text-lg text-justify leading-relaxed">
-            {project.description}
+          <div className="prose prose-blue leading-relaxed text-gray-700 text-base md:text-lg text-justify ">
+            <ReactMarkdown>{project.description}</ReactMarkdown>
           </div>
         </div>
       </article>

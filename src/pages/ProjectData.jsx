@@ -1,12 +1,13 @@
 // src/data/projectsData.js
-import water from "../img/water.jpg";
-import handicapped from "../img/handicapped.jpg";
+import water from "../img/g20.png";
+import healthcare from "../img/g46.png";
 import youth from "../img/g5.png";
 import seminar from "../img/g26.png";
-import handicraft from "../img/handicraft.png";
+import handicraft from "../img/g50.png";
+import baba from "../img/babasaheb.jpg";
 import SHG from "../img/SHG.png";
 import post from "../img/g2.png";
-import yamuna from "../img/yamuna.jpg";
+import yamuna from "../img/g7.png";
 import jute from "../img/g44.png";
 import basti from "../img/basti.png";
 
@@ -21,8 +22,8 @@ const ProjectsData = [
   },
   {
     id: 2,
-    img: handicapped,
-    title: "Welfare of Handicapped",
+    img: healthcare,
+    title: "Healthcare",
     author: "Admin",
     description:
       "India has a very large number of disable persons, many of them come from low-income groups. The disability restricts their opportunities for leading functionally productive life. The modern technology has helped in manufacturing a number of aids which can reduce the effects of disabilities and enhanced the economic potential of the disabled. AICURD, in collaboration with ALIMCO. Organized free distribution of artificial limb/aids to the disabled in the Districts of Jalpaiguri, Midnapore, 24-Parganas, Nadia and Murshidabad, (W.B.) to enable the disable to lead and honourable social life.",
@@ -45,7 +46,7 @@ const ProjectsData = [
   },
   {
     id: 5,
-    img: handicraft,
+    img: baba,
     title: "Baba Saheb Ambedkar Hast Shilp Vikash Yojana",
     author: "Admin",
     description:
