@@ -762,7 +762,7 @@ export default function MileStonesPage() {
                   Organization Contact Address
                 </td>
                 <td className="p-3 border-b border-gray-200">
-                  16, Bhai Veer Singh Marg, Gol Market, New Delhi 110001
+                  16, Bhai Veer Singh Marg, Gole Market, New Delhi 110001
                 </td>
               </tr>
               <tr className="hover:bg-gray-50">

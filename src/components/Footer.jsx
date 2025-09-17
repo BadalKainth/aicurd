@@ -41,7 +41,7 @@ const Footer = () => {
             </h2>
             <p className="mt-2 poppins-regular text-md text-gray-100">
               Address: 16, Bhai Veer Singh Marg, <br />
-              Gol Market, New Delhi - 110001
+              Gole Market, New Delhi - 110001
             </p>
           </div>
 

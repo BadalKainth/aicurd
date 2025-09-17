@@ -5,7 +5,7 @@ import youth from "../img/g5.png";
 import seminar from "../img/g26.png";
 import handicraft from "../img/g50.png";
 import baba from "../img/babasaheb.jpg";
-import SHG from "../img/SHG.png";
+import SHG from "../img/g42.png";
 import post from "../img/g2.png";
 import yamuna from "../img/g7.png";
 import jute from "../img/g44.png";
