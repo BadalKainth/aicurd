@@ -10,6 +10,7 @@ import post from "../img/g2.png";
 import yamuna from "../img/g7.png";
 import jute from "../img/g44.png";
 import basti from "../img/basti.png";
+import tailoring from "../img/g30.png";
 
 const ProjectsData = [
   {
@@ -108,11 +109,11 @@ const ProjectsData = [
   },
   {
     id: 12,
-    img: basti,
-    title: "Basti Vikash Kendras, Sultanpuri",
+    img: tailoring,
+    title: "Cutting & tailoring - AICURD",
     author: "Admin",
     description:
-      "The AICURD Computer Training Centre (ACTC) at B.V.K., Sultanpuri offers a part-time Diploma Courses in computer with packages on Fundamental, Windows, MS Office, FoxPro, Word Star, Lotus, Accounting and DTP. The duration of the course is one year. The minimum qualification of admission to the course is Senior Secondary School (10+12) Certificate from a recognized Board. The course is open to both boys and girls.",
+      "AICURD’s cutting and tailoring initiative empowers local communities by providing professional skill training in garment design, cutting, and stitching. Through structured workshops and hands-on guidance, participants—especially women and youth—learn modern tailoring techniques, pattern making, and finishing skills that enhance employability and promote small-scale entrepreneurship. By combining practical training with awareness about market trends, AICURD helps individuals transform their creativity into sustainable livelihoods, fostering economic independence and community development.",
   },
 ];
 
